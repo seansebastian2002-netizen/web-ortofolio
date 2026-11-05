@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Ruang Solusi Digital &amp; Kreatif</title>
+  <meta name="description" content="Aplikasi web profil modern berbasis HTML dan JavaScript dengan tampilan bersih, responsif, dan siap rilis di Vercel.">
+  
+  <!-- Favicon Mock -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><circle cx='12' cy='12' r='10'/></svg>">
+  
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="logo" aria-label="Beranda">
+        <div class="logo-icon">D</div>
+        <span>DevKarya</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <!-- Nav Links -->
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Halaman Utama</a></li>
+          <li><a href="profil.html" class="nav-link">Profil</a></li>
+          <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="kontak.html" class="btn btn-primary">Mulai Diskusi</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <span class="badge-tag">
+              <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                <path d="M12 6v6l4 2" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              Evolusi Web Modern
+            </span>
+            <h1 class="hero-title">
+              Membangun Solusi Digital yang <span class="highlight">Elegan &amp; Fungsional</span>
+            </h1>
+            <p class="hero-subtitle">
+              Selamat datang di portal karya kami. Kami menghadirkan rancangan situs web modern dengan arsitektur HTML5 dan JavaScript murni yang ringan, terstruktur rapi, serta dioptimalkan untuk kemudahan implementasi di Vercel.
+            </p>
+
+            <div class="hero-actions">
+              <a href="profil.html" class="btn btn-primary btn-lg">
+                Jelajahi Profil Kami
+                <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+              <a href="kontak.html" class="btn btn-secondary btn-lg">Hubungi Kami</a>
+            </div>
+
+            <div class="hero-badges">
+              <div class="badge-item">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Light Theme Bersih
+              </div>
+              <div class="badge-item">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                100% Responsif
+              </div>
+              <div class="badge-item">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Siap Rilis Vercel
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Illustration Image -->
+          <div class="hero-visual">
+            <img src="assets/images/hero-illustration.svg" alt="Ilustrasi Pengembangan Antarmuka Web Modern" width="800" height="600" loading="eager">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PILAR KEAHLIAN / FITUR ================= -->
+    <section class="section section-muted">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="badge-tag accent">Fokus &amp; Pendekatan</span>
+          <h2 class="section-title">Solusi Rancang Bangun yang Andal</h2>
+          <p class="section-desc">
+            Setiap komponen dibangun dengan dedikasi tinggi guna menghasilkan pengalaman pengguna yang mulus serta performa optimal.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          
+          <div class="card">
+            <div class="card-icon">
+              <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Antarmuka Responsif</h3>
+            <p class="card-text">
+              Tampilan tata letak yang beradaptasi secara dinamis di berbagai layar, mulai dari perangkat seluler, tablet, hingga layar desktop beresolusi tinggi.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Kecepatan &amp; Performa</h3>
+            <p class="card-text">
+              Struktur HTML semantik dan JavaScript murni tanpa ketergantungan berlebih (vanilla), memberikan waktu muat instan dan efisiensi memori.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Kesiapan Cloud Vercel</h3>
+            <p class="card-text">
+              Dikonfigurasi secara presisi dengan berkas perutean bersih (clean URLs), memfasilitasi proses penyebaran (deployment) langsung tanpa konfigurasi rumit.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= SHOWCASE KARYA / HIGHLIGHT ================= -->
+    <section class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="badge-tag success">Portofolio Karya</span>
+          <h2 class="section-title">Sorotan Karya &amp; Eksplorasi</h2>
+          <p class="section-desc">
+            Rangkuman inisiatif dan karya digital yang telah kami kembangkan dengan standar estetika tinggi.
+          </p>
+        </div>
+
+        <div class="showcase-grid">
+
+          <article class="showcase-card">
+            <div class="showcase-header">
+              <div class="showcase-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS Grid</span>
+                <span class="tag">Interaktif</span>
+              </div>
+              <h3 class="showcase-title">Portal Profil Kolaboratif</h3>
+            </div>
+            <div class="showcase-body">
+              <p class="showcase-desc">
+                Sistem showcase interaktif yang mengedepankan identitas personal dan etos kerja dengan navigasi cepat tanpa kendala.
+              </p>
+              <a href="profil.html" class="btn btn-secondary">Pelajari Selengkapnya &rarr;</a>
+            </div>
+          </article>
+
+          <article class="showcase-card">
+            <div class="showcase-header">
+              <div class="showcase-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">DOM API</span>
+                <span class="tag">UX Form</span>
+              </div>
+              <h3 class="showcase-title">Pusat Komunikasi Digital</h3>
+            </div>
+            <div class="showcase-body">
+              <p class="showcase-desc">
+                Modul formulir terintegrasi dengan validasi instan di sisi klien serta umpan balik notifikasi tanpa memaparkan data sensitif.
+              </p>
+              <a href="kontak.html" class="btn btn-secondary">Coba Modul &rarr;</a>
+            </div>
+          </article>
+
+          <article class="showcase-card">
+            <div class="showcase-header">
+              <div class="showcase-tags">
+                <span class="tag">Light Palette</span>
+                <span class="tag">Aksesibilitas</span>
+                <span class="tag">Vercel Ready</span>
+              </div>
+              <h3 class="showcase-title">Arsitektur Web Statis Ringan</h3>
+            </div>
+            <div class="showcase-body">
+              <p class="showcase-desc">
+                Optimalisasi struktur berkas agar ramah mesin pencari, berkecepatan tinggi, dan dapat langsung dipublikasikan ke jaringan edge.
+              </p>
+              <a href="profil.html" class="btn btn-secondary">Lihat Metodologi &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CTA BANNER ================= -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Siap Mewujudkan Kolaborasi Hebat Bersama?</h2>
+          <p>
+            Kami terbuka untuk bertukar pikiran seputar pengembangan proyek web, konsultasi antarmuka, dan gagasan inovatif lainnya.
+          </p>
+          <a href="kontak.html" class="btn btn-white btn-lg">Kirim Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">D</div>
+            <span>DevKarya</span>
+          </div>
+          <p>
+            Platform karya berbasis teknologi web modern yang dibangun secara bersih, berorientasi pengguna, dan siap dideploy secara global.
+          </p>
+          <div style="margin-top: 1rem;">
+            <div class="status-indicator">
+              <span class="status-dot"></span>
+              <span>Tersedia untuk Kolaborasi Terbuka</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Halaman Utama</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html" class="footer-link">Halaman Utama</a></li>
+            <li><a href="profil.html" class="footer-link">Profil Pengembang</a></li>
+            <li><a href="kontak.html" class="footer-link">Saluran Kontak</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Infrastruktur</h4>
+          <ul class="footer-nav">
+            <li><span class="footer-link">Platform: Vercel Static</span></li>
+            <li><span class="footer-link">Teknologi: HTML5 &amp; Vanilla JS</span></li>
+            <li><span class="footer-link">Tema: Modern Clean Light</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="currentYear">2026</span> DevKarya. Seluruh hak cipta dilindungi undang-undang.</div>
+        <div>Dibuat dengan dedikasi dan kode terstruktur.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Utama -->
+  <script src="js/script.js"></script>
+</body>
+</html>
